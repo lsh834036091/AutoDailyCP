@@ -1,3 +1,9 @@
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# https://github.com/lemofire/AutoDailyCP
+# Lisence: MIT
+# Author: 柠火
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 name: AutoDailyCP
 
 on:
