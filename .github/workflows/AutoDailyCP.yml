@@ -23,10 +23,10 @@ jobs:
           git clone https://gitee.com/Finch1/FuckDailyCP
           mv ./FuckDailyCP/* ./
       - name: Run program
-      env:
-        SCHOOL_NAME: ${{ secrets.SCHOOL_NAME }}
-        ACCOUNT: ${{ secrets.ACCOUNT }}
-        PASSWORD: ${{ secrets.PASSWORD }}
-        ADDRESS: ${{ ADDRESS }}
+        env:
+          SCHOOL_NAME: ${{ secrets.SCHOOL_NAME }}
+          ACCOUNT: ${{ secrets.ACCOUNT }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          ADDRESS: ${{ ADDRESS }}
         run: |
           python3 DailyCP.py ${SCHOOL_NAME} ${ACCOUNT} ${PASSWORD} ${ADDRESS}
