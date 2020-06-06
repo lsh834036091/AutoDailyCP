@@ -34,3 +34,8 @@ jobs:
           ADDRESS: ${{ secrets.ADDRESS }}
         run: |
           python3 DailyCP.py ${SCHOOL_NAME} ${ACCOUNT} ${PASSWORD} ${ADDRESS}
+      - name : Upload formdb
+        uses: actions/upload-artifact@master
+        with:
+          name: formdb
+          path: formdb
